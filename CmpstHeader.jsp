@@ -31,8 +31,8 @@ width=211></TD></TR></TBODY></TABLE>
 <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
   <TBODY>
   <TR>
-      <TD width="18%"
-      background="Images/mbg.gif"><b><font color="#000066">Administration Information</font></b></TD>
+      <TD width="20%"
+      background="Images/mbg.gif"><b><font color="#000066">Customer Information</font></b></TD>
       <TD width="58%" background="Images/mbg.gif"> 
         <TABLE cellSpacing=0 cellPadding=0 border=0>
         <TBODY>
@@ -49,7 +49,7 @@ width=211></TD></TR></TBODY></TABLE>
             <TD>&nbsp;</TD>
             <TD align=left>&nbsp;</TD>
           </TR></TBODY></TABLE></TD>
-      <TD align=right width="24%"
+      <TD align=right width="22%"
     background="Images/mbg.gif"><IMG height=19
       src="Images/mright.gif" width=211></TD>
     </TR>
@@ -58,17 +58,17 @@ width=211></TD></TR></TBODY></TABLE>
       <TD class=nav background="Images/mgbg.gif"
     colSpan=2> <IMG height=13 alt="CID Home" hspace=11
       src="Images/cid_home.gif" width=11
-      align=absMiddle><a disabled><FONT 
-color=#000066> <b>Home Page</b></font></a> |<a href="DeptRegistrationForm.jsp"  ><FONT 
-color=#000066> <b>New Department</b></font></a>
-        | <a href="AllDepartments.jsp"><FONT 
-color=#000066> <b>All Departments<b></font></a>| <a href="ThievesInformation.jsp"> <FONT 
-color=#000066> <b>Criminals Information</b></font></a>
-		|<a href="ThieveRegistrationForm.jsp"><FONT 
-color=#000066> <b>New Criminal Information</b></font></a> |<a href="Cautions.jsp"><FONT 
-color=#000066> <b>Cautions</b></font></a></TD>
+      align=absMiddle><a href="CustomerHome.jsp"><FONT 
+color=#000066> <b> Home Page</b></font></a> |<a href="CompRegistrationForm.jsp"  ><FONT 
+color=#000066> <b>Complaint 
+        Registration</b></font> </a> | <a href="CThievesInformation.jsp"> <FONT 
+color=#000066> <b>Criminals Information</b></font></a> 
+        |<a disabled><FONT 
+color=#000066> <b>Complaint Status</b></font></a> |<a href="ShowDepartments.jsp"><FONT 
+color=#000066> <b>Departments</b></font></a> |<a href="ShowDetails.jsp">
+<FONT color=#000066> <b>Change Profile</b></font></a> </TD>
       <TD class=nav align=right
-    background="Images/mgbg.gif" height=20 width="24%"> 
+    background="Images/mgbg.gif" height=20 width="22%"> 
         <div align="center"><IMG height=8 hspace=10 
                   src="Images/bullet.gif" width=8 
                   align=absMiddle border=0><a href="HomePage.jsp"><FONT 

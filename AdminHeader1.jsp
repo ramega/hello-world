@@ -1,11 +1,9 @@
 <HTML>
 <BODY bottomMargin=0 leftMargin=0
-topMargin=0
+ topMargin=0
 rightMargin=0 MS_POSITIONING="GridLayout">
 
 <FORM id=Form1 name=Form1 action= method=post encType=multipart/form-data>
-
-
   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
   <TBODY>
   <TR>
@@ -31,10 +29,10 @@ width=211></TD></TR></TBODY></TABLE>
 <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
   <TBODY>
   <TR>
-      <TD width="18%"
-      background="Images/mbg.gif"><b><font color="#000066">Administration Information</font></b></TD>
-      <TD width="58%" background="Images/mbg.gif"> 
-        <TABLE cellSpacing=0 cellPadding=0 border=0>
+      <TD width="9%"
+      background="Images/mbg.gif">&nbsp;</TD>
+    <TD width="60%" background="Images/mbg.gif">
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
         <TBODY>
         <TR>
             <TD width=75>&nbsp;</TD>
@@ -49,37 +47,31 @@ width=211></TD></TR></TBODY></TABLE>
             <TD>&nbsp;</TD>
             <TD align=left>&nbsp;</TD>
           </TR></TBODY></TABLE></TD>
-      <TD align=right width="24%"
+    <TD align=right width="31%"
     background="Images/mbg.gif"><IMG height=19
-      src="Images/mright.gif" width=211></TD>
-    </TR>
+      src="Images/mright.gif" width=211></TD></TR>
   <TR><LINK href="Images/mt_style.css"
     type=text/css rel=stylesheet>
       <TD class=nav background="Images/mgbg.gif"
     colSpan=2> <IMG height=13 alt="CID Home" hspace=11
       src="Images/cid_home.gif" width=11
-      align=absMiddle><a disabled><FONT 
-color=#000066> <b>Home Page</b></font></a> |<a href="DeptRegistrationForm.jsp"  ><FONT 
-color=#000066> <b>New Department</b></font></a>
-        | <a href="AllDepartments.jsp"><FONT 
-color=#000066> <b>All Departments<b></font></a>| <a href="ThievesInformation.jsp"> <FONT 
-color=#000066> <b>Criminals Information</b></font></a>
-		|<a href="ThieveRegistrationForm.jsp"><FONT 
-color=#000066> <b>New Criminal Information</b></font></a> |<a href="Cautions.jsp"><FONT 
-color=#000066> <b>Cautions</b></font></a></TD>
-      <TD class=nav align=right
-    background="Images/mgbg.gif" height=20 width="24%"> 
-        <div align="center"><IMG height=8 hspace=10 
-                  src="Images/bullet.gif" width=8 
-                  align=absMiddle border=0><a href="HomePage.jsp"><FONT 
-color=#003366>LogOut</FONT></a></div>
-      </TD>
-    </TR></TBODY></TABLE>
+      align=absMiddle><a href="HomePage.jsp"><FONT
+color=#000066> <b> Home Page</b></font></a> |<a href="RegistrationForm.jsp"  ><FONT
+color=#000066> <b>Registration</b></font></a>
+        | <a href="Login.jsp"><FONT
+color=#000066> <b> Customer Login</b></font></a>| <a disabled><FONT
+color=#000066> <b> Admin Login</b></font></a>|<a href="DLogin.jsp"><FONT
+color=#000066> <b>Department
+        Login</b></font></a></TD>
+    <TD class=nav align=right
+    background="Images/mgbg.gif" height=20><SPAN
+      class=nav id=HeaderDate1_lblDate
+      style="BACKGROUND-COLOR: transparent"></SPAN></TD></TR></TBODY></TABLE>
   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-    <TBODY> 
+    <TBODY>
     <TR>
       <TD  align=middle bgColor=#cc0000>&nbsp; </TD>
-      <TD vAlign=top width="95%"> 
+      <TD vAlign=top width="95%">
         <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
         <TBODY>
         <TR>

@@ -58,14 +58,14 @@ width=211></TD></TR></TBODY></TABLE>
       <TD class=nav background="Images/mgbg.gif"
     colSpan=2> <IMG height=13 alt="CID Home" hspace=11
       src="Images/cid_home.gif" width=11
-      align=absMiddle><a disabled><FONT 
+      align=absMiddle><a href="AdminHome.jsp"><FONT 
 color=#000066> <b>Home Page</b></font></a> |<a href="DeptRegistrationForm.jsp"  ><FONT 
 color=#000066> <b>New Department</b></font></a>
         | <a href="AllDepartments.jsp"><FONT 
 color=#000066> <b>All Departments<b></font></a>| <a href="ThievesInformation.jsp"> <FONT 
-color=#000066> <b>Criminals Information</b></font></a>
+color=#000066> <b>Thieves Information</b></font></a>
 		|<a href="ThieveRegistrationForm.jsp"><FONT 
-color=#000066> <b>New Criminal Information</b></font></a> |<a href="Cautions.jsp"><FONT 
+color=#000066> <b>New Thieves Information</b></font></a> |<a href="Cautions.jsp"><FONT 
 color=#000066> <b>Cautions</b></font></a></TD>
       <TD class=nav align=right
     background="Images/mgbg.gif" height=20 width="24%"> 
