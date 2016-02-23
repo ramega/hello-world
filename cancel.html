@@ -1,0 +1,64 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {color: #0066FF}
+.style2 {color: #0033FF}
+-->
+</style>
+</head>
+<script language="javascript">
+function validate_form ( )
+  {
+     
+	var valid = true;
+         if ( document.anu.pnrno.value == "" )
+        {
+             alert ( "Enter   your valid PNRNO");
+             valid = false;
+        } 				 
+  return valid;
+}
+</script>
+<body >
+<form action="cancel.jsp" name="anu" onSubmit="return validate_form ( );">
+<div align="center">
+  <table width="975" height="589" border="0" background="images/easter-clipart1.jpg">
+    <tr>
+      <th width="969" height="64" scope="row"><img src="images/IMA.JPG" width="978" height="184" /></th>
+    </tr>
+    <tr>
+      <th height="397" scope="row"><table width="975" height="395" border="0" bordercolor="#999999">
+        <tr>
+          <th width="77" height="23" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><span class="style1"><a href="index.html">Home</a></span></th>
+          <th width="151" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><a href="onlinereservmoudle.html">Online Resevation </a></th>
+          <th width="89" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><a href="fare.html"><span class="style1">Fares</span></a></th>
+          <th width="129" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><span class="style1"><a href="status.html">Cancel/Modify</a></span></th>
+          <th width="108" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><a href="status.html"><span class="style1">Status</span></a><a href="showstatus.html"></a></th>
+          <th width="136" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><a href="flightschedule.html">Flight Schedule</a></th>
+          <th width="255" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><a href="adminmoudle.html">Admin</a></th>
+        </tr>
+        <tr>
+          <th height="366" colspan="7" background="images/easter-clipart1.jpg" bgcolor="#FFFFFF" scope="row"><span class="style2">Enter ur PNRNo</span> 
+            <label>
+            <input type="text" name="pnrno" />
+            <input type="submit" name="Submit" value="Submit" />
+            </label>
+            <div align="center">
+              <table width="200" height="101" border="1">
+                <tr>
+                  <th scope="row"><img src="images/images[17].jpg" width="199" height="141" align="middle"></th>
+                  </tr>
+              </table>
+            </div></th>
+        </tr>
+      </table></th>
+    </tr>
+  </table>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="javascript">
+function validate_form ( )
+  {
+     
+	var valid = true;
+         if ( document.anu.uname.value == "" )
+        {
+             alert ( "Enter  your valid userName");
+             valid = false;
+        }
+
+        if ( document.anu.pass.value == "" )
+        {
+             alert ( "Enter your valid password");
+             valid = false;
+        
+        }
+       				 
+  return valid;
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {color: #0066FF}
+-->
+</style>
+</head>
+
+<body>
+<form action="bankpaymentinsert.jsp" name="anu" onSubmit="return validate_form ( );">
+<div align="center">
+  <table width="980" height="605" border="0" background="images/easter-clipart1.jpg">
+    <tr>
+      <th width="865" height="64" scope="row"><img src="images/IMA.JPG" width="978" height="184" /></th>
+    </tr>
+    <tr>
+      <th height="185" scope="row"><table width="976" height="537" border="0" bordercolor="#999999">
+          <tr>
+            <th width="89" height="23" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><span class="style1"><a href="index.html">Home</a></span></th>
+            <th width="156" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><span class="style1"><a href="onlinereservmoudle.html">Online Resevation</a> </span></th>
+            <th width="102" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><span class="style1"><a href="fare.html">Fares</a></span></th>
+            <th width="160" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><span class="style1"><a href="cancel.html">Cancel/Modify</a></span></th>
+            <th width="117" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><span class="style1"><a href="status.html">Status</a></span></th>
+            <th width="147" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><span class="style1"><a href="flightschedule.html">Flight Schedule</a></span></th>
+            <th width="173" background="images/easter-clipart1.jpg" bgcolor="#999999" scope="row"><a href="adminmoudle.html">Admin</a></th>
+          </tr>
+          <tr>
+            <th height="486" colspan="7" background="images/easter-clipart1.jpg" bgcolor="#CCCCCC" scope="row"><div align="center">Login
+              <table width="278" border="0">
+                <tr>
+                  <th width="148" scope="row">User Name </th>
+                      <td width="114"><label>
+                        <input type="text" name="uname" />
+                        </label>                      </td>
+                    </tr>
+                <tr>
+                  <th height="26" scope="row">Password</th>
+                      <td><label>
+                        <input type="password" name="pass" />
+                        </label>                      </td>
+                    </tr>
+              </table>
+            </div>
+              <label>
+                <input type="submit" name="Submit" value="Submit" />
+                </label>
+                <label>
+                <input type="submit" name="Submit2" value="Reset" />
+                <br />
+                </label>
+                <div align="center">
+                  <table width="169" height="142" border="1">
+                    <tr>
+                      <td width="191"><img src="../../../../../Tomcat 5.0/webapps/gv/images/images[17].jpg" width="161" height="127" /></td>
+                    </tr>
+                  </table>
+                </div>
+              <p>&nbsp;</p></th>
+          </tr>
+      </table></th>
+    </tr>
+  </table>
+</div>
+</form>   
+</body>
+</html>
